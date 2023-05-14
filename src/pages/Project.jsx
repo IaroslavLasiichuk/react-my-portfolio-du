@@ -1,7 +1,6 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Gradient from "../components/Gradient";
-import jslogo from "../assets/javascript-logo.webp";
 import data from "../data/data";
 
 export default function Project() {
