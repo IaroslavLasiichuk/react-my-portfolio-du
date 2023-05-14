@@ -2,7 +2,6 @@ import Gradient from "../components/Gradient";
 import { Link } from "react-router-dom";
 import data from "../data/data";
 
-
 export default function About() {
   const { bio } = data;
   

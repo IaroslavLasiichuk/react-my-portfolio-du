@@ -5,12 +5,12 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode> 
     <Router>
       <Routes>
         <Route path='/*' element={<App/>}></Route>
       </Routes>
-      </Router>
+    </Router>
   </React.StrictMode>
 )
 
