@@ -1,10 +1,11 @@
 import Gradient from "../components/Gradient";
 import { Link } from "react-router-dom";
 import data from "../data/data";
+import profileImg from "../assets/IMG_5570.jpg";
 
 export default function About() {
   const { bio } = data;
-  
+
   return (
     <div className="relative isolate min-h-screen px-6 pt-14 lg:px-8">
       <Gradient />
@@ -13,23 +14,26 @@ export default function About() {
         <div className="text-center">
           <div>
             {bio.map((info, index) => (
-            <section key={index}>
-                <h1 key={info.id} className="text-4xl py-10 font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <section key={index}>
+                <h1
+                  key={info.id}
+                  className="text-4xl py-10 font-bold tracking-tight text-gray-900 sm:text-6xl"
+                >
                   {info.title}
+                  <img
+                    className="h-32 mx-auto w-32 rounded-full p-2"
+                    src={profileImg}
+                    alt="My image"
+                  />
                 </h1>
-                <p key={info.id}  className="m-6 text-lg leading-8 text-gray-600">
-                  {info.content}{" "}
+                <p
+                  key={info.id}
+                  className="m-6 text-lg leading-8 text-gray-600"
+                >
+                  {info.content}
                 </p>
-                </section>
+              </section>
             ))}
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Download resume{" "}
-              <Link href="#" className="font-semibold text-indigo-600">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Click here <span aria-hidden="true">&rarr;</span>
-              </Link>
-            </div>
-            <p className="mt-6 text-lg leading-8 text-gray-600"></p>
           </div>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link
