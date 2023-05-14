@@ -1,13 +1,12 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Gradient from "../components/Gradient";
-import data from "../data/data";
+import Navbar from './Navbar'
+import Footer from './Footer'
+import Gradient from '../components/Gradient'
+import data from '../data/data'
 
 export default function Project() {
   const { projects } = data;
 
   return (
-    <>
       <div
         id="project"
         className="relative isolate bg-white  pt-24 sm:pt-24 flex flex-col"
@@ -29,7 +28,6 @@ export default function Project() {
               <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4">
                 {projects.map((project, index) => (
                   <div key={index} className="relative isolate block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
-                   
                     <div
                       className="mb-4 flex justify-center"
                       data-te-ripple-init
@@ -62,6 +60,5 @@ export default function Project() {
           <Footer />
         </div>
       </div>
-    </>
   );
 }
