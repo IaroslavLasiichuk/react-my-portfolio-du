@@ -11,7 +11,7 @@ export default function Project() {
     <>
       <div
         id="project"
-        className="relative isolate bg-white min-h-screen pt-24 sm:pt-24 flex flex-col"
+        className="relative isolate bg-white  pt-24 sm:pt-24 flex flex-col"
       >
         <Navbar />
         <Gradient />
@@ -29,27 +29,30 @@ export default function Project() {
             <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
               <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4">
                 {projects.map((project, index) => (
-                  <div key={index} className="p-6">
+                  <div key={index} className="relative isolate block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+                   
                     <div
-                      key={index}
-                      className="relative overflow-hidden bg-cover bg-no-repeat"
+                      className="mb-4 flex justify-center"
                       data-te-ripple-init
                       data-te-ripple-color="light"
                     >
-                       
                       <img
-                        style={{ height: '150px', width: '300px' }}
-                        className=""
+                        className="h-24  w-32 rounded-full p-2"
                         src={project.imageSrc}
                         alt=""
                       />
-                      <a target="blank" href={project.href}>
+                      <a href={project.href} target="blank">
                         <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
                       </a>
                     </div>
-                    <p className="text-center m-1 text-md leading-8 text-gray-600">
-                      {project.description}
-                    </p>
+                    <div className="p-6">
+                      <h5 className="text-center mb-2 text-xl font-medium leading-tight text-gray-600 ">
+                        {project.name}
+                      </h5>
+                      <p className="text-center mb-4 text-gray-600">
+                        {project.description}
+                      </p>
+                    </div>
                   </div>
                 ))}
               </div>
