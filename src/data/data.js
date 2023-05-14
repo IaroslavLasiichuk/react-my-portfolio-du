@@ -1,7 +1,8 @@
 const navigation = [
-    { name: 'Projects', href: '/project' },
+    { name: 'Portfolio', href: '/Portfolio' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Resume', href: '/resume' },
 ]
 
 const bio = [
