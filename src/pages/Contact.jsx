@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Info from '../components/Info'
 import Gradient from '../components/Gradient'
 
 export default function Contact() {
@@ -132,6 +133,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="bg-white shadow-sm py-0">
+        <Info />
         <Footer />
       </div>
     </div>
