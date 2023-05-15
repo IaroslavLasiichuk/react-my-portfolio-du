@@ -1,7 +1,7 @@
-import Gradient from "../components/Gradient";
-import { Link } from "react-router-dom";
-import data from "../data/data";
-import profileImg from "../assets/IMG_5570.jpg";
+import Gradient from '../components/Gradient'
+import { Link } from 'react-router-dom'
+import data from '../data/data'
+import profileImg from '../assets/IMG_5570.jpg'
 
 export default function About() {
   const { bio } = data;
@@ -21,7 +21,7 @@ export default function About() {
                 >
                   {info.title}
                   <img
-                    className="h-32 mx-auto w-32 rounded-full p-2"
+                    className="h-32 mx-auto w-28 rounded-full p-2"
                     src={profileImg}
                     alt="My image"
                   />
