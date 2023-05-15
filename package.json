@@ -2,7 +2,7 @@
   "homepage": "https://iaroslavlasiichuk.github.io/react-my-portfolio-du",
   "name": "react-my-portfolio-du",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
