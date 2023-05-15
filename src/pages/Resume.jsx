@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Gradient from "../components/Gradient";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Gradient from '../components/Gradient'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Resume = () => {
   return (
@@ -29,55 +29,55 @@ const Resume = () => {
               Click here <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>
-          <ul class="w-96 text-center">
+          <ul className="w-96 text-center">
             <h4 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Front-end Proficiencies
             </h4>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               HTML
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               CSS
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               JavaScript
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               JQuery
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               Responsive design
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               React
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               Bootstrap
             </li>
           </ul>
-          <ul class="w-96 text-center">
+          <ul className="w-96 text-center">
             <h4 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Back-end Proficiencies
             </h4>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               API's
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               Node js
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
              Express
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
              My SQL, Sequelize
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
              MongoDB, Mongoose
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
               REST
             </li>
-            <li class="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
+            <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4 dark:border-opacity-50">
             GraphQl
             </li>
           </ul>

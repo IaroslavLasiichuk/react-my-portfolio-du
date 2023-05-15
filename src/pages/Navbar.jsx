@@ -1,11 +1,11 @@
-import Gradient from "../components/Gradient"
-import { Link } from "react-router-dom"
-import { useState } from "react"
-import { Dialog } from "@headlessui/react"
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
-import React from "react"
-import data from "../data/data"
-import logo from "../assets/quickexport.png"
+import Gradient from '../components/Gradient'
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { Dialog } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import React from 'react'
+import data from '../data/data'
+import logo from '../assets/quickexport.png'
 
 const { navigation } = data;
 
