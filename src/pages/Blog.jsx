@@ -1,8 +1,8 @@
-import Gradient from "../components/Gradient";
-import data from "../data/data";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import profileImg from "../assets/IMG_5570.jpg";
+import Gradient from '../components/Gradient'
+import data from '../data/data'
+import Navbar from './Navbar'
+import Footer from './Footer'
+import profileImg from '../assets/IMG_5570.jpg'
 const { posts } = data;
 
 export default function Blog() {
