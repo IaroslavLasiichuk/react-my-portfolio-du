@@ -35,12 +35,8 @@ export default function Portfolio() {
                     >
                       <img
                         className=" h-24 w-28 rounded-full p-2"
-                        src={project.imageSrc}
-                        alt=""
+                        src={project.imageSrc} alt="logo"
                       />
-                      <a href={project.href} target="blank">
-                        <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
-                      </a>
                     </div>
                     <div className="p-6">
                       <h5 className="text-center mb-2 text-xl font-medium leading-tight text-gray-600 ">
@@ -49,6 +45,14 @@ export default function Portfolio() {
                       <p className="text-center mb-4 text-gray-600">
                         {project.description}
                       </p>
+                      <div className="mt-10 my-auto flex flex-col text-center gap-x-6">
+            <a href={project.git} target="blank" className="text-sm font-semibold leading-6 text-blue-900">
+            Git Hub Repo<span aria-hidden="true">&rarr;</span>
+          </a>
+            <a href={project.link} target="blank" className="text-sm font-semibold leading-6 text-blue-900">
+            View Deployed App <span aria-hidden="true">&rarr;</span>
+          </a>
+                    </div>
                     </div>
                   </div>
                 ))}
