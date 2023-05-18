@@ -4,7 +4,7 @@ const Info = () => {
   return (
     <section className="bg-white">
       <div className="max-w-screen-xl px-0 py-0 mx-auto space-y-2 overflow-hidden sm:px-6 lg:px-8">
-        <div className="flex justify-center mt-8 space-x-6">
+        <div className="flex flex-col md:flex-row justify-center mt-8 space-x-6">
           <p class="mb-4 flex items-center justify-center md:justify-start mt-2 text-lg leading-8 text-gray-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
